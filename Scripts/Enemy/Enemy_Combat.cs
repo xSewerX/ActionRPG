@@ -1,0 +1,21 @@
+using UnityEngine;
+
+public class Enemy_Combat : MonoBehaviour
+{
+    public float damage = 1;
+    public Transform attackPoint;
+    public float weaponRange;
+    public float knockbackForce = 0;
+    public float stunTime = 0;
+    public LayerMask playerLayer;
+
+    public void Attack()
+    {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, weaponRange, playerLayer);
+        if (hits.Length > 0)
+        {
+            hits[0].GetComponent<PlayerHealth>().LoseHealth(damage);
+            hits[0].GetComponent<PlayerMovement>().Knockback(transform, knockbackForce, stunTime);
+        } 
+    }
+}
