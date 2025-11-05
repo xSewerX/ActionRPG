@@ -2,15 +2,15 @@ Typ: Action RPG | Silnik: Unity | Język: C#
 
 Funkcjonalności:
 
--Mapa - kilku przeciwników, proste pułapki i skrzynki z przedmiotami.
+-Mapa: kilku przeciwników, proste pułapki i skrzynki z przedmiotami.
 
--Losowe przedmioty – skrzynie mogą zawierać bronie, orby regenerujące HP/manę lub punkty umiejętności.
+-Losowe przedmioty: skrzynie mogą zawierać bronie, orby regenerujące HP/manę lub punkty umiejętności.
 
--System talentów – drzewko umiejętności rozwijające postać w dwóch kierunkach:
+-System talentów: drzewko umiejętności rozwijające postać w dwóch kierunkach:
 
-Combat – walka wręcz, umiejętność "Rage" (czasowe zwiększenie szybkości ruchu, ataku i obrażeń). Dalsze rozwinięcia: efekty krwawienia oraz mechanika wydłużania Rage po pokonaniu przeciwnika.
+-Walka wręcz: umiejętność "Rage" (czasowe zwiększenie szybkości ruchu, ataku i obrażeń). Dalsze rozwinięcia: efekty krwawienia oraz mechanika wydłużania Rage po pokonaniu przeciwnika.
 
-Magic – umiejętności magiczne, m.in. atak stożkiem mrozu zamrażający przeciwników. Dalsze rozwinięcia: dodatkowe obrażenia zadawane zamrożonym wrogom oraz atak soplami lodu.
+-Magia: umiejętności magiczne, m.in. atak stożkiem mrozu zamrażający przeciwników. Dalsze rozwinięcia: dodatkowe obrażenia zadawane zamrożonym wrogom oraz atak soplami lodu.
 
 Screenshoty:
 
